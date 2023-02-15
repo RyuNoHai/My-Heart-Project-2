@@ -1,0 +1,418 @@
+*{ 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    border: 0; 
+
+    font-size: 100%; 
+
+    vertical-align: baseline; 
+
+} 
+
+body { 
+
+    text-align: center; 
+
+    font-family: Gg Sans Normal; 
+
+} 
+
+.head { 
+
+    display: flex; 
+
+    align-items: center; 
+
+    justify-content: space-between; 
+
+    height: 63px; 
+
+    background: #171717; 
+
+    position: fixed; 
+
+    width: 100%; 
+
+    z-index: 100; 
+
+} 
+
+.navbar { 
+
+    display: flex; 
+
+    margin-right: 10px; 
+
+    /* Ryū no hai — 11/02/2023 15:30
+       Hola
+       te extrañe we
+
+       Occsy — 11/02/2023 15:31
+       lo se
+
+       Ryū no hai — 11/02/2023 15:32
+       Si pero
+       debemos hablar
+
+       Occsy — 11/02/2023 16:26
+       debemos?
+
+       Ryū no hai — 11/02/2023 16:28
+       osea queria preguntarte algo
+       pero sonara bien raro
+       No soy alguien que entienda vscode pero conozco lo lo resiliente que soy cuando algo me gusta
+       Creo que hoy termino el diseño grafico
+       entonces queria poner una regla
+       que no hayan mas de 20 secretos ocultos y solo puedes perder si te rindes o se acaba el día
+       no puedo ayudarte pero si puedo darte pistas
+       ahora que lo pienso we
+       creo que entendiste cualquier wea
+
+       Occsy — 11/02/2023 16:50
+       xddddd
+       aver
+       si quieres puedo entrar al vc
+       y asi explicas
+       porque todo esta bien wtf
+
+       Ryū no hai — 11/02/2023 16:51
+       esta bien */
+
+} 
+
+.bienvenida { 
+
+    margin-left: 30px; 
+
+} 
+
+.bienvenida a { 
+
+    text-decoration: none; 
+
+    color: #fff; 
+
+    text-transform: uppercase; 
+
+    font-size: 20px; 
+
+} 
+
+.navbar a { 
+
+    display: block; 
+
+    padding: 20px 20px; 
+
+    color: #171717; 
+
+    text-decoration: none; 
+
+    text-transform: uppercase; 
+
+    font-size: 20px; 
+
+} 
+
+.navbar a:hover { 
+
+    background: #3f3f3f; 
+
+    /* Estas leyendo Css? no deberias primero invitarme a cenar o algo? jaja
+     Te adoro preciosa*/
+
+} 
+
+.header { 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    align-items: center; 
+
+} 
+
+.header { 
+
+    background: url(img/Love.png)no-repeat center; 
+
+    background-size: cover;
+
+    background-color: #171717;
+
+} 
+
+.title { 
+
+    margin-bottom: 40px; 
+
+    font-size: 60px; 
+
+    font-weight: 600; 
+
+    text-transform: uppercase; 
+
+    color: #fff; 
+
+/* Fijate que te deje el PSD de todos los diseño que hizo mi reina
+   y puede que tengas otras cosas ocultas tambien... */
+
+} 
+
+p { 
+
+    margin-bottom: 40px; 
+
+    font-size: 30px; 
+
+    color: #fff; 
+
+    padding: 0 100px; 
+
+} 
+
+.btn { 
+
+    display: inline-block; 
+
+    margin-top: 15px; 
+
+    padding: 10px 40px; 
+
+    border: 2px solid #b02727; 
+
+    color: #fff; 
+
+    text-decoration: none; 
+
+    background: #b02727; 
+
+} 
+
+.btn:hover { 
+
+    background: none; 
+
+} 
+
+.btn-home { 
+
+    display: flex; 
+
+} 
+
+.btn-home a { 
+
+    margin: 0 10px; 
+
+} 
+
+.content { 
+
+    height: 50vh; 
+
+    display: flex; 
+
+    flex-direction: column; 
+
+    justify-content: center; 
+
+    align-items: center; 
+
+} 
+
+.sau { 
+
+    padding: 30px; 
+
+    background: #1f1d1d 
+
+} 
+
+.box-container { 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    flex-wrap: wrap; 
+
+    text-align: center; 
+
+} 
+
+.box-container .box { 
+
+    height: 11rem; 
+
+    width: 17rem; 
+
+    background: #101010; 
+
+    text-align: center; 
+
+    border-radius: 1rem; 
+
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5); 
+
+    /*Estas pendejo siempre o es por turnos*/
+
+    margin: 2rem;    
+
+} 
+
+.box-container .box i { 
+
+    height: 3rem; 
+
+    width: 3rem; 
+
+    line-height: 3rem; 
+
+    text-align: center; 
+
+    border-radius: 50%; 
+
+    color: #fff; 
+
+    background: #b02727; 
+
+    font-size: 2rem; 
+
+    margin: 1rem 0; 
+
+} 
+
+.box-container .box h3 { 
+
+    font-size: 20px; 
+
+    color: #b02727; 
+
+} 
+
+.box-container .box p { 
+
+    padding: 0 15px; 
+
+    font-size: 16px; 
+
+} 
+
+.rules { 
+
+    background: url(img/YO\ YO\ YO.png) no-repeat center; 
+
+    background-size: cover;
+
+    background-color: #171717;
+
+    /* Occsy — ayer a las 11:32
+       creo que me soñe contigo wey xd
+
+       Ryū no hai — ayer a las 11:32
+       We eso suena lindo
+
+       Occsy — ayer a las 11:32
+       xdddd */
+
+} 
+
+.me { 
+
+    background:#1f1d1d; 
+
+    background-attachment: fixed; 
+
+    background-size: cover; 
+
+    text-align: center; 
+
+} 
+
+.wea { 
+
+    padding-top: 20px; 
+
+    background: #171717; 
+
+    padding-bottom: 0; 
+
+} 
+
+.heart { 
+
+    background: url(img/I\ did\ it.png) no-repeat center; 
+
+    background-size: cover;
+
+    background-color: #1f1d1d;
+
+    /* Ryū no hai — 11/02/2023 23:13
+       Mi corazoncito no puede con tanta ternura
+       toy sonriendo todo el dia 
+       Ya vengo si veré de comprar unas cosas para la cena
+
+       Occsy — 11/02/2023 23:14
+       espero que te atropeyen
+
+       Ryū no hai — 11/02/2023 23:27
+       Volvi
+       No gracias
+
+       Occsy — 11/02/2023 23:28
+       xd
+
+       Ryū no hai — 11/02/2023 23:29
+       Si me atropellan como quieres que haga la boda
+       osea
+       ni que fuera mago
+
+       Occsy — 11/02/2023 23:30
+       ah bueeeee
+       me gusta esa actitud */
+
+} 
+
+@media (max-width: 768px) { 
+
+ 
+ 
+
+    .title { 
+
+        margin-bottom: 0; 
+
+        font-size: 40px; 
+
+    } 
+
+ 
+ 
+
+    .sau { 
+
+        height: 100vh; 
+
+    } 
+
+ 
+ 
+
+    .navbar { 
+
+        display: none; 
+
+    } 
+
+    
+
+     
+
+} 
+
+ 
